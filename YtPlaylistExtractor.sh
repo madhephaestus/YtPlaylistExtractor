@@ -11,4 +11,4 @@ if ! [ -x "$(command -v ffmpeg)" ]; then
 	sudo apt install ffmpeg
 fi
 
-$FILE --extract-audio --audio-format mp3 --audio-quality 0 -o $2"/%(playlist)s/%(title)s.%(ext)s" $1
+$FILE --extract-audio --audio-format flac --audio-quality 0 -o $2"/%(playlist)s/%(title)s.%(ext)s" $1

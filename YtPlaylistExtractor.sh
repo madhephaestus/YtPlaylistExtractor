@@ -10,4 +10,4 @@ else
 fi
 
 
-$FILE --extract-audio --audio-format mp3 --audio-quality 0 -o $2"%(title)s.%(ext)s" $1
+$FILE --extract-audio --audio-format mp3 --audio-quality 0 -o $2"/%(playlist)s/%(title)s.%(ext)s" $1

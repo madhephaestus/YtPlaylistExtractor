@@ -1,3 +1,5 @@
+import com.neuronrobotics.bowlerstudio.scripting.ExternalEditorController
 import com.neuronrobotics.video.OSUtil
 
-println OSUtil.isOSX()
+
+println "Testing the test"

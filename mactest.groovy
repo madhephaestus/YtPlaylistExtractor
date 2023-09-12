@@ -2,4 +2,4 @@ import com.neuronrobotics.bowlerstudio.scripting.ExternalEditorController
 import com.neuronrobotics.video.OSUtil
 
 
-println "Testing the test"
+println "Testing the bloop"

@@ -4,7 +4,7 @@ FILE=./yt-dlp_linux
 if test -f "$FILE"; then
     echo "$FILE exists."
 else
-	wget https://github.com/ytdl-patched/yt-dlp/releases/download/2023.02.17.334/yt-dlp_linux
+	wget https://github.com/yt-dlp/yt-dlp/releases/download/2023.11.16/yt-dlp_linux
 	chmod +x $FILE
 fi
 if ! [ -x "$(command -v ffmpeg)" ]; then
